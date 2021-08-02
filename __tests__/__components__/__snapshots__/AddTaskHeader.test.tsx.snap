@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTaskHeader /> Render correctly AddTaskHeader Component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderBottomWidth": 2,
+        "borderColor": "#DBDBDB",
+        "flexDirection": "row",
+        "paddingVertical": 20,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flexDirection": "row",
+          "marginLeft": 20,
+          "marginRight": 20,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <MaterialCommunityIcons
+        color="black"
+        name="chevron-left"
+        size={25}
+      />
+    </View>
+  </View>
+  <Text
+    allowFontScaling={false}
+    color="black"
+    fontSize="20px"
+    fontWeight={800}
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "fontSize": 20,
+          "fontWeight": "800",
+        },
+      ]
+    }
+  >
+    Add task
+  </Text>
+</View>
+`;
